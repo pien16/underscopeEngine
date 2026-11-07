@@ -1,0 +1,766 @@
+[
+  {
+    "model": "knn",
+    "dataset": "car_data",
+    "currency": "INR",
+    "n_train": 1676,
+    "n_test": 419,
+    "n_features": 23,
+    "best_params": {
+      "k": 5,
+      "weights": "distance"
+    },
+    "cv_table": [
+      {
+        "k": 1,
+        "weights": "uniform",
+        "cv_rmse": 109760.70097539006
+      },
+      {
+        "k": 2,
+        "weights": "uniform",
+        "cv_rmse": 98015.73157161186
+      },
+      {
+        "k": 3,
+        "weights": "uniform",
+        "cv_rmse": 96150.18965352775
+      },
+      {
+        "k": 4,
+        "weights": "uniform",
+        "cv_rmse": 95995.30057130367
+      },
+      {
+        "k": 5,
+        "weights": "uniform",
+        "cv_rmse": 96187.86885971956
+      },
+      {
+        "k": 6,
+        "weights": "uniform",
+        "cv_rmse": 98689.49575460349
+      },
+      {
+        "k": 7,
+        "weights": "uniform",
+        "cv_rmse": 100055.79604472884
+      },
+      {
+        "k": 8,
+        "weights": "uniform",
+        "cv_rmse": 101675.10523197381
+      },
+      {
+        "k": 9,
+        "weights": "uniform",
+        "cv_rmse": 103122.9668405831
+      },
+      {
+        "k": 10,
+        "weights": "uniform",
+        "cv_rmse": 104854.7315105525
+      },
+      {
+        "k": 11,
+        "weights": "uniform",
+        "cv_rmse": 106601.96296862923
+      },
+      {
+        "k": 12,
+        "weights": "uniform",
+        "cv_rmse": 108152.02366910929
+      },
+      {
+        "k": 13,
+        "weights": "uniform",
+        "cv_rmse": 109518.35542090225
+      },
+      {
+        "k": 14,
+        "weights": "uniform",
+        "cv_rmse": 110257.83154767123
+      },
+      {
+        "k": 15,
+        "weights": "uniform",
+        "cv_rmse": 111496.32258683373
+      },
+      {
+        "k": 16,
+        "weights": "uniform",
+        "cv_rmse": 112467.63598724308
+      },
+      {
+        "k": 17,
+        "weights": "uniform",
+        "cv_rmse": 113175.1578041288
+      },
+      {
+        "k": 18,
+        "weights": "uniform",
+        "cv_rmse": 113865.98533970394
+      },
+      {
+        "k": 19,
+        "weights": "uniform",
+        "cv_rmse": 114033.89987710743
+      },
+      {
+        "k": 20,
+        "weights": "uniform",
+        "cv_rmse": 114076.23632127114
+      },
+      {
+        "k": 21,
+        "weights": "uniform",
+        "cv_rmse": 114342.98048093349
+      },
+      {
+        "k": 22,
+        "weights": "uniform",
+        "cv_rmse": 114725.76223750354
+      },
+      {
+        "k": 23,
+        "weights": "uniform",
+        "cv_rmse": 114842.84494143052
+      },
+      {
+        "k": 24,
+        "weights": "uniform",
+        "cv_rmse": 115473.37507224859
+      },
+      {
+        "k": 25,
+        "weights": "uniform",
+        "cv_rmse": 115766.58036859077
+      },
+      {
+        "k": 26,
+        "weights": "uniform",
+        "cv_rmse": 116256.71372094021
+      },
+      {
+        "k": 27,
+        "weights": "uniform",
+        "cv_rmse": 116869.9033501038
+      },
+      {
+        "k": 28,
+        "weights": "uniform",
+        "cv_rmse": 117416.17410780252
+      },
+      {
+        "k": 29,
+        "weights": "uniform",
+        "cv_rmse": 118111.15052198712
+      },
+      {
+        "k": 30,
+        "weights": "uniform",
+        "cv_rmse": 118831.97148754282
+      },
+      {
+        "k": 1,
+        "weights": "distance",
+        "cv_rmse": 109760.70097539006
+      },
+      {
+        "k": 2,
+        "weights": "distance",
+        "cv_rmse": 97263.00975345765
+      },
+      {
+        "k": 3,
+        "weights": "distance",
+        "cv_rmse": 94410.35858158935
+      },
+      {
+        "k": 4,
+        "weights": "distance",
+        "cv_rmse": 93165.8679429634
+      },
+      {
+        "k": 5,
+        "weights": "distance",
+        "cv_rmse": 92002.15991702306
+      },
+      {
+        "k": 6,
+        "weights": "distance",
+        "cv_rmse": 92629.96988188641
+      },
+      {
+        "k": 7,
+        "weights": "distance",
+        "cv_rmse": 92781.61916582228
+      },
+      {
+        "k": 8,
+        "weights": "distance",
+        "cv_rmse": 93196.49101646556
+      },
+      {
+        "k": 9,
+        "weights": "distance",
+        "cv_rmse": 93441.53915157447
+      },
+      {
+        "k": 10,
+        "weights": "distance",
+        "cv_rmse": 94059.08421225125
+      },
+      {
+        "k": 11,
+        "weights": "distance",
+        "cv_rmse": 94539.88300010333
+      },
+      {
+        "k": 12,
+        "weights": "distance",
+        "cv_rmse": 95189.98176661092
+      },
+      {
+        "k": 13,
+        "weights": "distance",
+        "cv_rmse": 95866.44945344959
+      },
+      {
+        "k": 14,
+        "weights": "distance",
+        "cv_rmse": 96346.70904819338
+      },
+      {
+        "k": 15,
+        "weights": "distance",
+        "cv_rmse": 97067.73532572044
+      },
+      {
+        "k": 16,
+        "weights": "distance",
+        "cv_rmse": 97733.9849765686
+      },
+      {
+        "k": 17,
+        "weights": "distance",
+        "cv_rmse": 98230.79491033078
+      },
+      {
+        "k": 18,
+        "weights": "distance",
+        "cv_rmse": 98767.03357390834
+      },
+      {
+        "k": 19,
+        "weights": "distance",
+        "cv_rmse": 98973.75098499857
+      },
+      {
+        "k": 20,
+        "weights": "distance",
+        "cv_rmse": 99244.2972808955
+      },
+      {
+        "k": 21,
+        "weights": "distance",
+        "cv_rmse": 99746.7266157876
+      },
+      {
+        "k": 22,
+        "weights": "distance",
+        "cv_rmse": 100111.65614090642
+      },
+      {
+        "k": 23,
+        "weights": "distance",
+        "cv_rmse": 100424.93552694033
+      },
+      {
+        "k": 24,
+        "weights": "distance",
+        "cv_rmse": 101006.82919976074
+      },
+      {
+        "k": 25,
+        "weights": "distance",
+        "cv_rmse": 101442.12078389831
+      },
+      {
+        "k": 26,
+        "weights": "distance",
+        "cv_rmse": 101910.07718789828
+      },
+      {
+        "k": 27,
+        "weights": "distance",
+        "cv_rmse": 102474.81277002548
+      },
+      {
+        "k": 28,
+        "weights": "distance",
+        "cv_rmse": 102964.77044557498
+      },
+      {
+        "k": 29,
+        "weights": "distance",
+        "cv_rmse": 103532.29113434881
+      },
+      {
+        "k": 30,
+        "weights": "distance",
+        "cv_rmse": 103981.42559928625
+      }
+    ],
+    "train_metrics": {
+      "r2": 0.9970279866854646,
+      "rmse": 12598.729377147578,
+      "mae": 3270.704325454433,
+      "mape": 0.8412771425586113
+    },
+    "test_metrics": {
+      "r2": 0.8047836610008773,
+      "rmse": 105363.8026224025,
+      "mae": 68966.0025128964,
+      "mape": 18.089068049414525
+    },
+    "baseline_test_metrics": {
+      "r2": -0.0010773491404179047,
+      "rmse": 238598.2047195386,
+      "mae": 185464.01778726483,
+      "mape": 61.66302117331981
+    }
+  },
+  {
+    "model": "knn",
+    "dataset": "carprice",
+    "currency": "USD",
+    "n_train": 164,
+    "n_test": 41,
+    "n_features": 59,
+    "best_params": {
+      "k": 3,
+      "weights": "distance"
+    },
+    "cv_table": [
+      {
+        "k": 1,
+        "weights": "uniform",
+        "cv_rmse": 3234.1967614954624
+      },
+      {
+        "k": 2,
+        "weights": "uniform",
+        "cv_rmse": 3157.484274254496
+      },
+      {
+        "k": 3,
+        "weights": "uniform",
+        "cv_rmse": 3169.882238678478
+      },
+      {
+        "k": 4,
+        "weights": "uniform",
+        "cv_rmse": 3465.326126096695
+      },
+      {
+        "k": 5,
+        "weights": "uniform",
+        "cv_rmse": 3817.403558939614
+      },
+      {
+        "k": 6,
+        "weights": "uniform",
+        "cv_rmse": 4140.253787985751
+      },
+      {
+        "k": 7,
+        "weights": "uniform",
+        "cv_rmse": 4364.002741658686
+      },
+      {
+        "k": 8,
+        "weights": "uniform",
+        "cv_rmse": 4450.719594786894
+      },
+      {
+        "k": 9,
+        "weights": "uniform",
+        "cv_rmse": 4520.034198760572
+      },
+      {
+        "k": 10,
+        "weights": "uniform",
+        "cv_rmse": 4707.814310026557
+      },
+      {
+        "k": 11,
+        "weights": "uniform",
+        "cv_rmse": 4792.1544660131985
+      },
+      {
+        "k": 12,
+        "weights": "uniform",
+        "cv_rmse": 4868.475476380348
+      },
+      {
+        "k": 13,
+        "weights": "uniform",
+        "cv_rmse": 4950.459416402306
+      },
+      {
+        "k": 14,
+        "weights": "uniform",
+        "cv_rmse": 4964.436325452411
+      },
+      {
+        "k": 15,
+        "weights": "uniform",
+        "cv_rmse": 5007.286759487215
+      },
+      {
+        "k": 1,
+        "weights": "distance",
+        "cv_rmse": 3234.1967614954624
+      },
+      {
+        "k": 2,
+        "weights": "distance",
+        "cv_rmse": 3071.974401518662
+      },
+      {
+        "k": 3,
+        "weights": "distance",
+        "cv_rmse": 2939.6011222889947
+      },
+      {
+        "k": 4,
+        "weights": "distance",
+        "cv_rmse": 3072.6111076122083
+      },
+      {
+        "k": 5,
+        "weights": "distance",
+        "cv_rmse": 3278.7164025125967
+      },
+      {
+        "k": 6,
+        "weights": "distance",
+        "cv_rmse": 3516.750514758013
+      },
+      {
+        "k": 7,
+        "weights": "distance",
+        "cv_rmse": 3683.9273994466735
+      },
+      {
+        "k": 8,
+        "weights": "distance",
+        "cv_rmse": 3759.2237370746575
+      },
+      {
+        "k": 9,
+        "weights": "distance",
+        "cv_rmse": 3795.1445570941214
+      },
+      {
+        "k": 10,
+        "weights": "distance",
+        "cv_rmse": 3922.7072802232033
+      },
+      {
+        "k": 11,
+        "weights": "distance",
+        "cv_rmse": 3974.59254844344
+      },
+      {
+        "k": 12,
+        "weights": "distance",
+        "cv_rmse": 4015.1983003172345
+      },
+      {
+        "k": 13,
+        "weights": "distance",
+        "cv_rmse": 4071.166774272253
+      },
+      {
+        "k": 14,
+        "weights": "distance",
+        "cv_rmse": 4084.65175153842
+      },
+      {
+        "k": 15,
+        "weights": "distance",
+        "cv_rmse": 4103.363050051615
+      }
+    ],
+    "train_metrics": {
+      "r2": 0.9987301862694388,
+      "rmse": 299.37702093975787,
+      "mae": 75.33656643839254,
+      "mape": 0.4727585493767294
+    },
+    "test_metrics": {
+      "r2": 0.8390139507239489,
+      "rmse": 2295.295246428915,
+      "mae": 1797.181748048598,
+      "mape": 16.30178521723669
+    },
+    "baseline_test_metrics": {
+      "r2": -0.09535970328566346,
+      "rmse": 5987.186904007875,
+      "mae": 5145.329995240928,
+      "mape": 55.78312826055611
+    }
+  },
+  {
+    "model": "gradient_descent",
+    "dataset": "car_data",
+    "currency": "INR",
+    "n_train": 1676,
+    "n_test": 419,
+    "n_features": 23,
+    "best_params": {
+      "l2": 0.0,
+      "log_target": true
+    },
+    "cv_table": [
+      {
+        "l2": 0.0,
+        "log_target": false,
+        "cv_rmse": 108096.29707522667
+      },
+      {
+        "l2": 0.0,
+        "log_target": true,
+        "cv_rmse": 87934.25512707578
+      },
+      {
+        "l2": 0.001,
+        "log_target": false,
+        "cv_rmse": 108106.09403542565
+      },
+      {
+        "l2": 0.001,
+        "log_target": true,
+        "cv_rmse": 87974.96511520441
+      },
+      {
+        "l2": 0.01,
+        "log_target": false,
+        "cv_rmse": 108334.37015280026
+      },
+      {
+        "l2": 0.01,
+        "log_target": true,
+        "cv_rmse": 88350.96945679808
+      },
+      {
+        "l2": 0.1,
+        "log_target": false,
+        "cv_rmse": 110702.57238234479
+      },
+      {
+        "l2": 0.1,
+        "log_target": true,
+        "cv_rmse": 92306.63067247345
+      },
+      {
+        "l2": 1.0,
+        "log_target": false,
+        "cv_rmse": 132609.83645068217
+      },
+      {
+        "l2": 1.0,
+        "log_target": true,
+        "cv_rmse": 130509.49213297099
+      }
+    ],
+    "learning_rate": 0.2428617975967629,
+    "n_iter": 3015,
+    "converged": true,
+    "train_metrics": {
+      "r2": 0.8593961018469962,
+      "rmse": 86656.28220271399,
+      "mae": 61300.310077216265,
+      "mape": 15.375850395178695
+    },
+    "test_metrics": {
+      "r2": 0.8215554238251002,
+      "rmse": 100736.07612095353,
+      "mae": 69355.61127406138,
+      "mape": 16.94821106676296
+    },
+    "closed_form_test_metrics": {
+      "r2": 0.821575427907982,
+      "rmse": 100730.42957977633,
+      "mae": 69351.35414916668,
+      "mape": 16.94659798532789
+    },
+    "baseline_test_metrics": {
+      "r2": -0.0010773491404179047,
+      "rmse": 238598.2047195386,
+      "mae": 185464.01778726483,
+      "mape": 61.66302117331981
+    },
+    "top_coefficients": [
+      {
+        "feature": "age",
+        "coef": -0.33238988348076093
+      },
+      {
+        "feature": "max_power_bhp",
+        "coef": 0.20883650621637873
+      },
+      {
+        "feature": "brand_Maruti",
+        "coef": 0.151734175112404
+      },
+      {
+        "feature": "brand_Hyundai",
+        "coef": 0.0845105411934624
+      },
+      {
+        "feature": "fuel_Diesel",
+        "coef": 0.06898331987154176
+      },
+      {
+        "feature": "brand_Toyota",
+        "coef": 0.0677123159337633
+      },
+      {
+        "feature": "fuel_Petrol",
+        "coef": -0.06537386013643263
+      },
+      {
+        "feature": "engine_cc",
+        "coef": 0.04890836483536631
+      }
+    ]
+  },
+  {
+    "model": "gradient_descent",
+    "dataset": "carprice",
+    "currency": "USD",
+    "n_train": 164,
+    "n_test": 41,
+    "n_features": 59,
+    "best_params": {
+      "l2": 0.01,
+      "log_target": true
+    },
+    "cv_table": [
+      {
+        "l2": 0.0,
+        "log_target": false,
+        "cv_rmse": 2819.0751083782175
+      },
+      {
+        "l2": 0.0,
+        "log_target": true,
+        "cv_rmse": 2442.577002213121
+      },
+      {
+        "l2": 0.001,
+        "log_target": false,
+        "cv_rmse": 2758.4545120937
+      },
+      {
+        "l2": 0.001,
+        "log_target": true,
+        "cv_rmse": 2389.296007527317
+      },
+      {
+        "l2": 0.01,
+        "log_target": false,
+        "cv_rmse": 2640.868777485192
+      },
+      {
+        "l2": 0.01,
+        "log_target": true,
+        "cv_rmse": 2386.713187262335
+      },
+      {
+        "l2": 0.1,
+        "log_target": false,
+        "cv_rmse": 2598.753760555923
+      },
+      {
+        "l2": 0.1,
+        "log_target": true,
+        "cv_rmse": 2470.4787043600836
+      },
+      {
+        "l2": 1.0,
+        "log_target": false,
+        "cv_rmse": 2810.05192426106
+      },
+      {
+        "l2": 1.0,
+        "log_target": true,
+        "cv_rmse": 2781.826492706565
+      }
+    ],
+    "learning_rate": 0.09766051552923208,
+    "n_iter": 3020,
+    "converged": true,
+    "train_metrics": {
+      "r2": 0.9761792274571078,
+      "rmse": 1296.6607775592672,
+      "mae": 890.2868344656646,
+      "mape": 7.049601079113554
+    },
+    "test_metrics": {
+      "r2": 0.8885267602883458,
+      "rmse": 1909.9840806557575,
+      "mae": 1357.4054376510785,
+      "mape": 11.801797478438163
+    },
+    "closed_form_test_metrics": {
+      "r2": 0.8885376014997991,
+      "rmse": 1909.8912016615825,
+      "mae": 1357.4691642684156,
+      "mape": 11.802709419309682
+    },
+    "baseline_test_metrics": {
+      "r2": -0.09535970328566346,
+      "rmse": 5987.186904007875,
+      "mae": 5145.329995240928,
+      "mape": 55.78312826055611
+    },
+    "top_coefficients": [
+      {
+        "feature": "curbweight",
+        "coef": 0.18582230993506657
+      },
+      {
+        "feature": "enginesize",
+        "coef": 0.09781435376912932
+      },
+      {
+        "feature": "carbody_hatchback",
+        "coef": -0.09371255239474305
+      },
+      {
+        "feature": "carbody_sedan",
+        "coef": -0.08883205727638574
+      },
+      {
+        "feature": "brand_bmw",
+        "coef": 0.08431553839289506
+      },
+      {
+        "feature": "fuelsystem_mpfi",
+        "coef": 0.0728547567090501
+      },
+      {
+        "feature": "wheelbase",
+        "coef": 0.07122339014512415
+      },
+      {
+        "feature": "brand_mitsubishi",
+        "coef": -0.06747483563733578
+      }
+    ]
+  }
+]
